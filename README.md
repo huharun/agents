@@ -41,12 +41,11 @@ Orchestrates the workflow and delegates tasks to sub-agents. Equipped with tools
    * Overall Project Report
 5. **Save:** Reports are exported as Markdown files using `save_task_report`.
 
-## Demo Video
+## Demo Video 
 
-<video controls>
-  <source src="https://github.com/huharun/agents/blob/main/input.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![DevSwarm Demo](input.gif)
+
+(4.34 min)
 
 Example: Fixing a medium-priority Jira ticket triggers all sub-agents to produce reports and save them automatically.
 
