@@ -77,7 +77,7 @@ DevSwarm/
 
 ```bash
 git clone https://github.com/huharun/agents
-cd DevSwarm
+cd agents/DevSwarm
 ```
 
 2. Install dependencies (replace with your actual list):
@@ -88,11 +88,22 @@ pip install -r requirements.txt
 
 ---
 
+3. Create a .env file in the project root
+```bash
+GOOGLE_GENAI_USE_VERTEXAI=0
+GOOGLE_API_KEY=your_google_api_key_here
+$env:SSL_CERT_FILE = (python -m certifi)
+JIRA_DOMAIN=https://yourname.atlassian.net
+JIRA_EMAIL=your_mail@gmail.com
+JIRA_API_TOKEN=your_jira_api_token_here
+```
+
 ## Running DevSwarm (ADK Web)
 
 Start the system in ADK Web mode:
 
 ```bash
+cd..
 adk web
 ```
 
