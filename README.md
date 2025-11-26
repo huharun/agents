@@ -10,6 +10,8 @@ DevSwarm is a modular multi-agent system for software project management. It aut
 
 **Root Agent:** `devswarm_root_agent`
 Orchestrates the workflow and delegates tasks to sub-agents. Equipped with tools like `save_task_report`, `analyze_codebase`, and `get_todo_tickets`.
+![DevSwarm Architecture](https://github.com/huharun/agents/blob/main/ui.png)
+
 
 **Sub-Agents:**
 
@@ -39,7 +41,14 @@ Orchestrates the workflow and delegates tasks to sub-agents. Equipped with tools
    * Overall Project Report
 5. **Save:** Reports are exported as Markdown files using `save_task_report`.
 
-Example: Fixing a medium-priority Jira ticket (KAN-8) triggers all sub-agents to produce reports and save them automatically.
+## Demo Video
+
+<video controls>
+  <source src="https://github.com/huharun/agents/blob/main/input.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Example: Fixing a medium-priority Jira ticket triggers all sub-agents to produce reports and save them automatically.
 
 ---
 
@@ -68,7 +77,7 @@ DevSwarm/
 1. Clone the repository:
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/huharun/agents
 cd DevSwarm
 ```
 
